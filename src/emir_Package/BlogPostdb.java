@@ -29,10 +29,6 @@ public class BlogPostdb {
 
                 if (array[i].contains(id)) {
                     result = array[1] + "\n" + array[2];
-                } else if (array[i].contains(id)) {
-                    result = array[1] + "\n" + array[2];
-                } else if (array[i].contains(id)) {
-                    result = array[1] + "\n" + array[2];
                 }
 
             }
