@@ -16,7 +16,18 @@ public class MergeArray {
             nums2[i] = in.nextInt();
         }
 
-        System.out.println(Arrays.toString(mergR(nums, nums2)));
+        int[] arr = mergR(nums,nums2);
+
+
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++) {
+            if (i == arr.length-1){
+                System.out.print(arr[i]);
+            }else {
+                System.out.print(arr[i]+",");
+            }
+        }
+        System.out.print("]");
     }
 
     public static int[] mergR(int[] a,int[] b) {
