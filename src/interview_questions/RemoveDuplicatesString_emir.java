@@ -7,21 +7,21 @@ public class RemoveDuplicatesString_emir {
     public static void main(String[] args) {
 
         String str = "abcdajdaaabba";
-
         String removed = "";
 
-        String[] arr = str.split("");
-
-        for (int i=0; i<str.length() ; i++){
+        for (int i = 0; i < str.length(); i++) {
 
             String ch = str.charAt(i)+"";
-            int counter = 0;
-            if (arr[i].equals(ch)){
-                counter++;
+
+            if (removed.contains(ch)){
+                continue;
+            }else {
+                removed+=ch;
             }
 
-
         }
+
+        System.out.println("removed = " + removed);
 
     }
 
