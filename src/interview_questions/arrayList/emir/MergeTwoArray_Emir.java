@@ -1,4 +1,4 @@
-package interview_questions.arrayList;
+package interview_questions.arrayList.emir;
 
 import java.util.ArrayList;
 import java.util.Arrays;
