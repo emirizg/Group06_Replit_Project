@@ -13,6 +13,7 @@ public class MergeTwoArray {
 
         for (String each : arr1) {
             list.add(each);
+
         }
 
         for (String each : arr2) {
