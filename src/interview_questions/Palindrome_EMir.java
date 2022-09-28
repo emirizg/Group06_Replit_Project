@@ -8,13 +8,10 @@ public class Palindrome_EMir {
         String reversed ="";
 
         for(int i =  str.length()-1; i>=0; i--){
-
             reversed+=str.charAt(i);
-
         }
 
         boolean isPalindrome = str.equalsIgnoreCase(reversed);
-
         System.out.println("isPalindrome = " + isPalindrome);
 
     }
