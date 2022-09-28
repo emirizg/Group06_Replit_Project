@@ -27,7 +27,7 @@ public class findMaxMin_Emir {
 
 }
 /*
-5. Write a program that can find the maximum number from an ArrayList of integers
+5. Write a program that can find the maximum number and minimum from an ArrayList of integers
         Ex:
             list = [1,2,3,4,5];
             output:
