@@ -1,6 +1,6 @@
 package interview_questions;
 
-public class RemoveDuplicatesString {
+public class RemoveDuplicatesString_emir {
 
     //Remove duplicates from String
 
@@ -12,18 +12,13 @@ public class RemoveDuplicatesString {
 
         String[] arr = str.split("");
 
-        int counter = 0;
-
         for (int i=0; i<str.length() ; i++){
 
             String ch = str.charAt(i)+"";
-
+            int counter = 0;
             if (arr[i].equals(ch)){
-
-
-
+                counter++;
             }
-
 
 
         }
