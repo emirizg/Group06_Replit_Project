@@ -7,7 +7,7 @@ public class findMax_Emir {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,2,3,4,44444,5));
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1,2,3,4,5));
 
         int max = arr.get(0);
 
