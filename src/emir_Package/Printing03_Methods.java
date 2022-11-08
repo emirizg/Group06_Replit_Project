@@ -20,20 +20,13 @@ public class Printing03_Methods {
 
     public static void printing(String[] strArr){
 
-
-
         for (int i = 0; i < strArr.length-2; i++) {
-
 
             System.out.print(strArr[i] + ", ");
             System.out.print(strArr[i+1] + ", ");
             System.out.println(strArr[i+2]);
 
-
-
         }
-
-
     }
 
 }
